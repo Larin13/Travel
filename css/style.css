@@ -177,8 +177,21 @@
 .burger_label{
    display: none;
    position: absolute;
-   top: 10px;
-   right: 0;
+   top: 20px;
+   right: 20px;
+}
+
+.burger_span{
+   display: block;
+   width: 50px;
+   height: 5px;
+   background-color: #fff;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}
+
+.burger_span:last-child{
+   margin-bottom: 0;
 }
 
 .burger_img{
@@ -203,6 +216,9 @@
    .nav_item{
       margin: 0;
       margin-left: -20px;
+      margin-bottom: 30px;
+      border: 2px solid white;
+      padding: 0 10px
    }
 }
 @media (max-width: 800px) {

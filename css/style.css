@@ -8,12 +8,12 @@
    background-size: cover;
    background-repeat: no-repeat;
    text-align: center;
-   padding-top: 260px;
+   padding-top: 270px;
 
 }
 
 .container{
-   width: 80%;
+   max-width: 1110px;
    margin: 0 auto;
 }
 
@@ -41,12 +41,12 @@
    width: 650px;
    background-color: #fff;
    margin: 0 auto;
-   margin-top: 50px;
+   margin-top: 60px;
 }
 
 .search_input{
    width: calc(100% - 150px);
-   height: 60px;
+   height: 50px;
    text-align: center;
    border: none;
    font-size: 14px;
@@ -57,7 +57,7 @@
 }
 
 .search_btn{
-   padding: 15px 25px;
+   padding: 10px 27px;
    background-color: #5474fd;
    cursor: pointer;
    border: none;
@@ -209,6 +209,7 @@
    align-self: center;
    width: 100%;
    margin-right: 100px;
+   margin-top: 50px;
 }
 
 .why_choose_h2{
@@ -285,17 +286,17 @@
 
 .icon{
    background-color: #333333;
-   padding-top: 85px;
-   padding-bottom: 85px;
+   padding-top: 110px;
+   padding-bottom: 120px;
 }
 
 .icon_wrapper{
    display: flex;
    justify-content: space-around;
-   text-align: center;
    background-image: url('../image/icon/Shape\ 1.png');
    background-repeat: no-repeat;
-   background-position: top;
+   background-position: top center;
+   text-align: center;
 }
 
 
@@ -305,7 +306,10 @@
    color: #e8e8e8;
    font-weight: 400;
    font-family: "Aleo";
+   margin: 0;
+   margin-top: 20px;
 }
+
 @media (max-width: 1000px) {
    .icon_p{
       font-size: 25px;
@@ -341,11 +345,11 @@
 
 
 .spain_content{
-   background-color: rgba(35, 35, 35, 0.8);;
-   width: 445px;
-   box-sizing: content-box;
-   padding: 45px 70px 50px 20px;
+   background-color: rgba(35, 35, 35, 0.9);;
+   max-width: 540px;
+   min-height: 370px;
    margin-top: 230px;
+   padding: 25px 0 0 30px;
 }
 
 .spain_content_second{
@@ -389,7 +393,7 @@
    background-size: cover;
    background-repeat: no-repeat;
    min-height: 730px;
-   padding-top: 105px;
+   padding-top: 120px;
 }
 
 .review_h3{
@@ -413,17 +417,21 @@
    margin-right: 50px;
 }
 
+.review_text{
+   margin-left: 10px;
+}
+
 .review_name{
    font-size: 20px;
    line-height: 26px;
    color: #fefefe;
    font-family: "Josefin Sans";
-   margin-top: 40px;
-   margin-bottom: 20px;
+   margin-top: 50px;
+   margin-bottom: 30px;
 }
 
 .review_p{
-   font-size: 18px;
+   font-size: 16px;
    line-height: 26px;
    color: #fefefe;
    font-family: "Josefin Sans";
@@ -462,8 +470,8 @@
 
 .footer{
    background-color: #232323;
-   padding-top: 110px;
-   padding-bottom: 40px;
+   padding-top: 120px;
+   padding-bottom: 50px;
 }
 
 .footer_content{
